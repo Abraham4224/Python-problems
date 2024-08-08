@@ -12,3 +12,8 @@ def volume(length,width,height):
 
 def surfaceArea(length,width,height):
     return (length*width*2)+(length*height*2)+(width*height*2)
+
+print(perimeter(length,width))
+print(area(length,width))
+print(volume(length,width,height))
+print(surfaceArea(length,width,height))
