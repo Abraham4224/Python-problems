@@ -1,3 +1,4 @@
+number = int(input("Introduce a number:"))
 def ordinalSuffix(number):
     num=str(number)
     if num.endswith("0") and len(num)==1:
@@ -12,3 +13,5 @@ def ordinalSuffix(number):
         print(num+"th")
     elif  number >=100:
         print(num+"st")
+
+ordinalSuffix(number)
