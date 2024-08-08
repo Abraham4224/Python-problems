@@ -10,7 +10,7 @@ def getChessSquareColor(x,y):
     elif x%2!=0 and y%2!=0:
         return "white"
 print(getChessSquareColor(4,8))    
-
+#This is another way to do it
 def ChessSquareColor(x,y):
     if x>=8 or y>=8:
         return ''
