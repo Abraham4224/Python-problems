@@ -2,7 +2,7 @@ t="Firefox"
 o='fox'
 n='dog'
 if o in t:
-    print("Encontrado")
+    print("Found")
     long=len(o)
     encontrar=t.find(o)
     sliced=t[encontrar:(encontrar+long)]
