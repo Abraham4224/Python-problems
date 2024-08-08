@@ -1,3 +1,4 @@
+#This code doesn't ask for any parameter, just shows a simple file
 def writeToFile(text,code):
     with open(text,'w') as Txt:
         Txt.write(code)
