@@ -12,7 +12,7 @@ def getChessSquareColor(x,y):
         return "black"
     elif x%2!=0 and y%2!=0:
         return "white"
-print(getChessSquareColor(x,y))    
+        
 #This is another way to do it
 def ChessSquareColor(x,y):
     if x>=8 or y>=8:
@@ -22,5 +22,5 @@ def ChessSquareColor(x,y):
     else:
         return "black"
       
-print(getChessSquareColor(4,4)) 
-print(ChessSquareColor(4,4)) 
+print(getChessSquareColor(x,y)) 
+print(ChessSquareColor(x,y)) 
