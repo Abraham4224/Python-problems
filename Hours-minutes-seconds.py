@@ -24,5 +24,5 @@ def getHoursMinutesSeconds(totalSeconds):
         
     return ' '.join(lista)
         
-print(getHoursMinutesSeconds(3661))
+
 print(getHoursMinutesSeconds(x))
