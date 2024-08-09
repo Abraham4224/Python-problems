@@ -1,3 +1,4 @@
+x=int(input("Introduce the total number of seconds:"))
 def getHoursMinutesSeconds(totalSeconds):
     if totalSeconds == 0: return '0s'
     horas=0
@@ -24,3 +25,4 @@ def getHoursMinutesSeconds(totalSeconds):
     return ' '.join(lista)
         
 print(getHoursMinutesSeconds(3661))
+print(getHoursMinutesSeconds(x))
