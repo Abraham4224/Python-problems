@@ -1,6 +1,7 @@
-t="Firefox"
-o='fox'
-n='dog'
+
+t=input("Enter a word or a sentence:")
+o=input("Introduce the old word:")
+n=input("Introduce the new word:")
 if o in t:
     print("Found")
     long=len(o)
