@@ -1,3 +1,4 @@
+print("Give me a list of numbers separated by a comma: ")
 def getSmallest(numbers):
     if len(numbers)==0: return 0
     menor=None
