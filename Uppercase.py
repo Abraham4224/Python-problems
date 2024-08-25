@@ -1,3 +1,4 @@
+answer=input("Enter a word")
 def getUppercase(text):
     if len(text)=='': return ''
     nuevacadena=''
@@ -9,4 +10,4 @@ def getUppercase(text):
             nuevacadena=nuevacadena+text[i]
     return nuevacadena     
      
-print(getUppercase('HellO12')) 
+print(getUppercase(answer)) 
