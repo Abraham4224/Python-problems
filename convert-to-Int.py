@@ -1,3 +1,4 @@
+number=input("Enter a number: ")
 def convertToInt(snumber):
     dictn={'1':1,'2':2,'3':3,'4':4,'5':5,'6':6,'7':7,'8':8,'9':9,'0':0}
     listadesuma=[]
@@ -11,3 +12,5 @@ def convertToInt(snumber):
         resultado=dictn[indice]*listadesuma[i]
         numero+=resultado
     return numero
+
+print(convertToInt(number))
