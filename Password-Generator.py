@@ -1,5 +1,7 @@
 import random 
 
+length=input("How long do you want your password to be?")
+
 def generatePassword(length):
     lista=[]
     if length<12: 
@@ -9,4 +11,6 @@ def generatePassword(length):
         lista.append(chr(aleatorio))
     contraseña=''.join(lista)
     return contraseña
-print(generatePassword(16))
+
+
+print(generatePassword(length))
