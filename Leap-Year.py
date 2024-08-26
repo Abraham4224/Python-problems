@@ -1,3 +1,5 @@
+print("This will print if the year introduced was leap: ")
+year=int(input())
 def isLeapYear(year):
     if year%4!=0:
         return False
@@ -8,4 +10,4 @@ def isLeapYear(year):
     else:
         return False
 
-print(isLeapYear(2004))
+print(isLeapYear(year))
