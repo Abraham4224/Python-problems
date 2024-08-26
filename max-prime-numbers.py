@@ -1,3 +1,4 @@
+x=input("This will convert your number given in a series of prime numbers: ")
 def primeNumbers(n):
     i=2
     factors=[]
@@ -11,4 +12,4 @@ def primeNumbers(n):
         factors.append(n)
     return max(factors)
 
-print(primeNumbers(138))
+print(primeNumbers(int(x))
