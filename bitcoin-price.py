@@ -1,5 +1,10 @@
 import requests
 
+print("""
+This code uses the requests library to get the current Bitcoin price from the CoinDesk API. 
+The requests library is very useful for interacting with APIs and making HTTP requests in Python.
+""")
+
 # URL de la API
 url = 'https://api.coindesk.com/v1/bpi/currentprice.json'
 
