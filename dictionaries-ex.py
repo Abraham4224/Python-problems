@@ -3,7 +3,7 @@ crypto = {1: "Bitcoin", 2: "Ethereum", 3: "Litecoin", 4: "Stellar", 5:"XRP"}
 #Then, the value of the key 4 is stored in a variable
 value = crypto[4]
 print(value)
-
+#Return a key-value using a function.
 def ojos(n):
     return crypto[n]
 
