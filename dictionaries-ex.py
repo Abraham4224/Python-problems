@@ -9,7 +9,7 @@ def ojos(n):
 
 valor = ojos(4)
 print(valor)
-
+#Returning a key-value using a method
 val=crypto.get(4)
 print(val)
 
