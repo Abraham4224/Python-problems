@@ -12,7 +12,7 @@ print(valor)
 #Returning a key-value using a method
 val=crypto.get(4)
 print(val)
-
+#Rewrite the fourth key with a new value
 crypto[4] = "Cardano"
 print(crypto[4])
 
