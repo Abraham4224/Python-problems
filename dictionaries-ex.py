@@ -18,7 +18,7 @@ print(crypto[4])
 #Create a new key-value in dictionary
 crypto[6]="Monero"
 print(crypto[6])
-
+#Counting the number of items in dictionary
 number=len(crypto)
 print(number)
 
