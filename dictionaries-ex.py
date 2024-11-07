@@ -21,7 +21,7 @@ print(crypto[6])
 #Counting the number of items in dictionary
 number=len(crypto)
 print(number)
-
+#Deleting a key-value
 del crypto[6]
 print(crypto)
 
