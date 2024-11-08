@@ -24,7 +24,7 @@ print(number)
 #Deleting a key-value
 del crypto[6]
 print(crypto)
-
+#Deleting a value using pop
 crypto.pop(3)
 print(crypto)
 
