@@ -27,7 +27,7 @@ print(crypto)
 #Deleting a value using pop
 crypto.pop(3)
 print(crypto)
-
+#Checking if a value is in the dictionary
 check = 7 not in crypto
 print(check)
 
