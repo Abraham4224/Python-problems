@@ -33,6 +33,6 @@ print(check)
 
 result = crypto.items()
 print(list(result))
-
+#Clearing all values in dictionary
 crypto.clear()
 print(crypto)
